@@ -1,0 +1,15 @@
+.main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    width: 80%;
+    background-color: rgba(218, 213, 196, 0.765);
+    min-height: 50vh;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 900px){
+    
+}

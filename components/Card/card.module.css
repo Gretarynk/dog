@@ -1,0 +1,47 @@
+.main{
+    width: 700px;
+    color:black;
+    padding: 2em;
+    background-color: rgb(37, 36, 22);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.photo{
+    width: 50%;
+    object-fit: cover;
+    
+    border-radius: 15px;
+}
+.text{
+    width: 40%;
+    color:darkgoldenrod;
+
+}
+@media only screen and (max-width: 869px){
+    .main{
+        width: 350px;
+        color:black;
+        padding: 2em;
+        background-color: rgb(37, 36, 22);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    
+    }
+
+    .photo{
+        width: 100%;
+        object-fit: cover;
+        
+        border-radius: 15px;
+    }
+    .text{
+        width: 80%;
+        color:darkgoldenrod;
+    
+    }
+}

@@ -1,0 +1,15 @@
+.refreshBtn{
+    border-radius: 7px;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.refreshBtn:hover{
+    opacity:unset;
+    color: white;
+    background-color: black;
+    transition:ease-out 1s;
+
+}
