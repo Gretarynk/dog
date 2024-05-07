@@ -1,5 +1,7 @@
 html body{
   margin: 0;
+  
+  min-width: none;
   background-color: rgb(96, 83, 58);
   background-image: url(https://t4.ftcdn.net/jpg/04/46/16/05/360_F_446160530_YKxh6vs4e6pp1apSsy61bZrFkNsiI069.jpg);
   background-repeat:repeat;

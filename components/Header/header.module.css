@@ -40,6 +40,7 @@
     padding: 4em;
     font-size: 120%;
    
+   
 
 }
 .mobileMenu{
@@ -49,23 +50,33 @@
     display: none;
 }
 
-@media only screen and (max-width: 869px){
+@media only screen and (max-width:700px){
     .main{
-        width: 100%;
+        padding: 0;
+
+      
+        box-sizing: border-box;
     }
   
     .menu{display: none;}
     .burgerBtn{
         display: inline-block ;
+        padding: 0;
+        margin: 0;
         
     }
-    
+    .menuMobile{
+        padding: 0;
+        margin: 0;
+    }
     .mobileMenu{
         display: inline-block;
         height: 100%;
         animation: mobile-menu;
         animation-duration: 1s;
         animation-fill-mode: forwards;
+        margin: 0;
+        padding: 0;
 
     }
 }
